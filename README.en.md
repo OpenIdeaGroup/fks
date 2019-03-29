@@ -23,8 +23,8 @@ Although the project would be maintained in plain text instead, I promise a smal
         - [TypeScript](http://www.typescriptlang.org/)
     - Slicing
         - [HTML](http://www.w3.org/html/)/[HTML5](http://www.w3.org/TR/html5/)
-        - [CSS](http://www.w3.org/Style/CSS/)/CSS3 
-        - [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)
+        - [CSS](http://www.w3.org/Style/CSS/)/CSS3
+        - [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)/[PostCSS](http://postcss.org/)
         - [PhotoShop](http://www.photoshop.com/products/photoshop)/[Paint.net](http://www.getpaint.net/)/[Fireworks](http://www.adobe.com/cn/products/fireworks.html)/[GIMP](http://www.gimp.org/)/[Sketch](http://bohemiancoding.com/sketch/)
     - Development tools
         - Editors and IDEs
@@ -41,19 +41,21 @@ Although the project would be maintained in plain text instead, I promise a smal
             - [Neovim](http://neovim.org/)
             - [Komodo IDE / Edit](http://www.activestate.com/komodo-edit)
             - [Eclipse](http://www.eclipse.org/)
-            - [Visual Studio](http://www.visualstudio.com/)
+            - [Visual Studio](http://www.visualstudio.com/)/[Visual Studio Code](https://code.visualstudio.com/)
             - [NetBeans](https://netbeans.org/)
             - [Cloud9 IDE](http://c9.io/)
             - [HBuilder](http://www.dcloud.io/)
+            - [Nuclide](http://nuclide.io/)
         - Debugging
             - [Firebug](http://getfirebug.com/)/[Firecookie](https://addons.mozilla.org/en-US/firefox/addon/firecookie/)
             - [YSlow](http://developer.yahoo.com/yslow/)
             - [IEDeveloperToolbar](http://www.microsoft.com/en-us/download/details.aspx?id=18359)/[IETester](http://www.my-debugbar.com/wiki/IETester/HomePage)
-            - [Fiddler](http://www.fiddler2.com/fiddler2/)
-            - [Chrome Dev Tools](https://developers.google.com/chrome-developer-tools/)
+            - [Fiddler](http://www.telerik.com/fiddler)
+            - [Chrome Dev Tools](https://developer.chrome.com/devtools)
             - [Dragonfly](http://www.opera.com/dragonfly/)
             - [DebugBar](http://www.debugbar.com/)
             - [Venkman](https://developer.mozilla.org/en-US/docs/Venkman)
+            - [Charles](https://www.charlesproxy.com/)
         - Revision Control
             - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)/[Mercurial](http://mercurial.selenic.com/)
             - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)/[Bitbucket](https://bitbucket.org/)/[Google Code](http://code.google.com/hosting/)/[Gitorious](https://gitorious.org/)/[GNU Savannah](http://savannah.gnu.org/)/[Launchpad](https://launchpad.net/)/[SourceForge](http://sourceforge.net/)/[TeamForge](http://www.collab.net/products/teamforge)
@@ -86,7 +88,6 @@ Although the project would be maintained in plain text instead, I promise a smal
         - [qooxdoo](http://qooxdoo.org/)
         - [React](http://facebook.github.io/react/)
         - [Brick](http://mozbrick.github.io/)
-        - [Knockout](http://knockoutjs.com/)
     - Frontend standards / specifications
         - HTTP/1.1: RFCs 7230-7235
         - [HTTP/2](https://http2.github.io/)
@@ -95,11 +96,11 @@ Although the project would be maintained in plain text instead, I promise a smal
         - [CommonJS Modules](http://wiki.commonjs.org/wiki/Modules/1.0)/[AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)
         - [HTML5](http://www.w3.org/html/wg/drafts/html/master/)/[CSS3](http://www.w3.org/Style/CSS/specs.en.html)
         - [Semantic Web](http://semanticweb.org/)
-            - [MicroData](http://schema.org) 
+            - [MicroData](http://schema.org)
             - [RDFa](http://www.w3.org/TR/rdfa-core/)
         - [Web Accessibility](http://www.w3.org/WAI/)
             - [WCAG](http://www.w3.org/TR/WAI-WEBCONTENT/)
-            - [Role Attribute](http://www.w3.org/TR/role-attribute/)  
+            - [Role Attribute](http://www.w3.org/TR/role-attribute/)
             - [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
     - Performance
         - [JSPerf](http://jsperf.com/)
@@ -134,6 +135,9 @@ Although the project would be maintained in plain text instead, I promise a smal
             - [Yeoman](http://yeoman.io/)
             - [FIS](http://fis.baidu.com/)
             - [Mod](https://github.com/modulejs/modjs)
+        - ES6+ transpiler
+            - [Traceur](https://github.com/google/traceur-compiler)
+            - [Babel](https://babeljs.io/)
     - Code organizing
         - Modularizing libraries
             - [CommonJS](http://www.commonjs.org/)/AMD
@@ -160,6 +164,7 @@ Although the project would be maintained in plain text instead, I promise a smal
         - [W3C Mobile Web Initiative](http://www.w3.org/Mobile/)
         - [W3C mobileOK Checker](http://validator.w3.org/mobile/)
         - [Open Mobile Alliance](http://openmobilealliance.org/)
+        - [React Native](https://facebook.github.io/react-native/)
     - Advanced technology communities/conferences
         - [D2](http://d2forum.org)/[WebRebuild](http://www.webrebuild.org/)
         - NodeParty/[W3CTech](http://w3ctech.com)/[HTML5梦工厂(HTML5 Dreamworks)](http://www.html5dw.com)
@@ -170,6 +175,10 @@ Although the project would be maintained in plain text instead, I promise a smal
         - YDN/YUIConf
         - HybridApp
         - [WHATWG](http://whatwg.org/)
+        - [MDN](https://developer.mozilla.org/en-US/)
+        - [codepen](http://codepen.io/)
+        - [w3cplus](http://www.w3cplus.com/)
+        - [CNode](https://cnodejs.org/)
     - Computer science
         - Compilation principle
         - [Computer network](http://en.wikipedia.org/wiki/Computer_network)
@@ -282,6 +291,7 @@ The ★ less and easier, the more suitable for starters
 
 ## Front-end Developer Interview
 - [Front-end Developer Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
+- [Front end Developer Questions( Chinese (Simple) Language)](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions/Question)
 
 ## Contributors
 Thanks to Jayli who provided the original graph and contributors below. Generated by `git-summary` at 2014/01/03.
@@ -293,7 +303,7 @@ Thanks to Jayli who provided the original graph and contributors below. Generate
  active   : 53 days
  commits  : 108
  files    : 4
- authors  : 
+ authors  :
     56  Jackson Tian            51.9%
      9  吴晓兰               8.3%
      5  liyinkan                4.6%

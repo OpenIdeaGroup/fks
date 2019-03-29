@@ -12,7 +12,7 @@ Frontend Knowledge Structure
 ## 前端开发知识结构
 - 前端工程师
     - 浏览器
-        - IE6/[7](http://www.microsoft.com/en-us/download/internet-explorer-7-details.aspx)/[8](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8)/[9](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages)/[10](http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages)/[11](http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages) (Trident)
+        - IE6/[7](http://www.microsoft.com/en-us/download/internet-explorer-7-details.aspx)/[8](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8)/[9](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages)/[10](http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages)/[11](http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages) (Trident) / [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) (EdgeHTML)
         - [Firefox](http://www.mozilla.org/en-US/) (Gecko)
         - [Chrome](http://www.google.com/chrome)/[Chromium](http://www.chromium.org/) (Blink)
         - [Safari](http://www.apple.com/safari/) (WebKit)
@@ -24,7 +24,7 @@ Frontend Knowledge Structure
     - 切页面
         - [HTML](http://www.w3.org/html/)/[HTML5](http://www.w3.org/TR/html5/)
         - [CSS/CSS3](http://www.w3.org/Style/CSS/)
-        - [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)
+        - [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)/[postCSS](https://github.com/postcss/postcss)
         - [PhotoShop](http://www.photoshop.com/products/photoshop)/[Paint.net](http://www.getpaint.net/)/[Fireworks](http://www.adobe.com/cn/products/fireworks.html)/[GIMP](http://www.gimp.org/)/[Sketch](http://bohemiancoding.com/sketch/)
     - 开发工具
         - 编辑器和IDE
@@ -42,24 +42,27 @@ Frontend Knowledge Structure
             - [Komodo IDE / Edit](http://www.activestate.com/komodo-edit)
             - [Eclipse](http://www.eclipse.org/)
             - [Visual Studio](http://www.visualstudio.com/)
+            - [Visual Studio Code](https://code.visualstudio.com/)
             - [NetBeans](https://netbeans.org/)
             - [Cloud9 IDE](http://c9.io/)
             - [HBuilder](http://www.dcloud.io/)
+            - [Nuclide](http://nuclide.io/)
         - 调试工具
             - [Firebug](http://getfirebug.com/)/[Firecookie](https://addons.mozilla.org/en-US/firefox/addon/firecookie/)
             - [YSlow](http://developer.yahoo.com/yslow/)
             - [IEDeveloperToolbar](http://www.microsoft.com/en-us/download/details.aspx?id=18359)/[IETester](http://www.my-debugbar.com/wiki/IETester/HomePage)
-            - [Fiddler](http://www.fiddler2.com/fiddler2/)
-            - [Chrome Dev Tools](https://developers.google.com/chrome-developer-tools/)
+            - [Fiddler](http://www.telerik.com/fiddler)
+            - [Chrome Dev Tools](https://developer.chrome.com/devtools)
             - [Dragonfly](http://www.opera.com/dragonfly/)
             - [DebugBar](http://www.debugbar.com/)
             - [Venkman](https://developer.mozilla.org/en-US/docs/Venkman)
+            - [Charles](https://www.charlesproxy.com/)
         - 版本管理
             - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)/[Mercurial](http://mercurial.selenic.com/)
             - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)/[Bitbucket](https://bitbucket.org/)/[Gitorious](https://gitorious.org/)/[GNU Savannah](http://savannah.gnu.org/)/[Launchpad](https://launchpad.net/)/[SourceForge](http://sourceforge.net/)/[TeamForge](http://www.collab.net/products/teamforge)
     - 代码质量
         - Coding style
-            - [JSLint](http://www.jslint.com/)/[JSHint](http://www.jshint.com/)/[jscs](https://github.com/mdevils/node-jscs)
+            - [JSLint](http://www.jslint.com/)/[JSHint](http://www.jshint.com/)/[jscs](https://github.com/mdevils/node-jscs)/[ESLint](https://github.com/eslint/eslint)
             - [CSSLint](http://csslint.net/)
             - [Markup Validation Service](http://validator.w3.org/)
             - [HTML Validators](https://validator.whatwg.org/)
@@ -86,11 +89,12 @@ Frontend Knowledge Structure
         - [qooxdoo](http://qooxdoo.org/)
         - [React](http://facebook.github.io/react/)
         - [Brick](http://mozbrick.github.io/)
-        - [Knockout](http://knockoutjs.com/)
+        - [vue.js](http://cn.vuejs.org/)
     - 前端标准/规范
         - HTTP/1.1: RFCs 7230-7235
         - [HTTP/2](https://http2.github.io/)
         - [ECMAScript3/5](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+        - [ECMAScript6](http://www.ecma-international.org/ecma-262/6.0/index.html)
         - [W3C: DOM/BOM/XHTML/XML/JSON/JSONP/...](http://www.w3.org/TR/)
         - [CommonJS Modules](http://wiki.commonjs.org/wiki/Modules/1.0)/[AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)
         - [HTML5](http://www.w3.org/html/wg/drafts/html/master/)/[CSS3](http://www.w3.org/Style/CSS/specs.en.html)
@@ -134,10 +138,14 @@ Frontend Knowledge Structure
             - [Yeoman](http://yeoman.io/)
             - [FIS](http://fis.baidu.com/)
             - [Mod](https://github.com/modulejs/modjs)
+        - ES6＋ 转换器
+            - [Traceur](https://github.com/google/traceur-compiler)
+            - [Babel](https://babeljs.io/)
     - 代码组织
         - 类库模块化
             - [CommonJS](http://www.commonjs.org/)/AMD
             - [YUI3模块](http://yuilibrary.com/projects/yui3/)
+            - [webpack](http://webpack.github.io/)
         - 业务逻辑模块化
             - [bower](https://github.com/twitter/bower)/[component](https://github.com/component/component)
         - 文件加载
@@ -155,11 +163,13 @@ Frontend Knowledge Structure
         - [响应式网页设计](http://zh.wikipedia.org/wiki/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1)
         - [Zeptojs](http://zeptojs.com/)/[iScroll](http://cubiq.org/iscroll)
         - V5/[Sencha Touch](http://www.sencha.com/products/touch)
-        - [PhoneGap](http://phonegap.com/)
+        - [PhoneGap](http://phonegap.com/)/[Cordova](https://cordova.apache.org/)
         - [jQuery Mobile](http://jquerymobile.com/)
         - [W3C Mobile Web Initiative](http://www.w3.org/Mobile/)
         - [W3C mobileOK Checker](http://validator.w3.org/mobile/)
         - [Open Mobile Alliance](http://openmobilealliance.org/)
+        - [React Native](https://facebook.github.io/react-native/)
+        - [ionic](http://ionicframework.com/)
     - 前沿技术社区/会议
         - [D2](http://d2forum.org)/[WebRebuild](http://www.webrebuild.org/)
         - NodeParty/[W3CTech](http://w3ctech.com)/[HTML5梦工厂](http://www.html5dw.com)
@@ -170,6 +180,10 @@ Frontend Knowledge Structure
         - YDN/YUIConf
         - HybridApp
         - [WHATWG](http://whatwg.org/)
+        - [MDN](https://developer.mozilla.org/zh-CN/)
+        - [codepen](http://codepen.io/)
+        - [w3cplus](http://www.w3cplus.com/)
+        - [CNode](https://cnodejs.org/)
     - 计算机知识储备
         - 编译原理
         - [计算机网络](http://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)
@@ -184,7 +198,7 @@ Frontend Knowledge Structure
         - 交互设计/可用性/可访问性知识
     - 可视化
         - SVG/Canvas/VML
-        - SVG: [D3](http://d3js.org/)/[Raphaël](http://raphaeljs.com/)/[Snap.svg](http://snapsvg.io/)/[DataV](http://datavlab.org/datavjs/)
+        - SVG: [D3](http://d3js.org/)/[Raphaël](http://dmitrybaranovskiy.github.io/raphael/)/[Snap.svg](http://snapsvg.io/)/[DataV](http://datavlab.org/datavjs/)
         - Canvas: [CreateJS](http://www.createjs.com/)/[KineticJS](http://kineticjs.com/)
         - [WebGL](http://en.wikipedia.org/wiki/WebGL)/[Three.JS](http://threejs.org/)
 
@@ -216,8 +230,10 @@ Frontend Knowledge Structure
 - [Eric Meyer 谈 CSS（卷二）](http://www.amazon.cn/Eric-Meyer-谈-CSS-迈耶/dp/B00170M84I/)★★★
 - [CSS权威指南 （第3版）](http://book.douban.com/subject/2308234/)★★
 - [精通CSS](http://book.douban.com/subject/4736167/)★★★
+- [HTML & CSS设计与构建网站](http://book.douban.com/subject/21338365/)★
 
 ### JavaScript
+- [JavaScript & jQuery交互式Web前端开发](http://book.douban.com/subject/26433805/)★
 - [JavaScript DOM编程艺术 （第2版）](http://book.douban.com/subject/6038371/)★
 - [JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)★★
 - [锋利的jQuery](http://book.douban.com/subject/10792216/)★★
@@ -233,6 +249,8 @@ Frontend Knowledge Structure
 - [基于MVC的JavaScript Web富应用开发](http://book.douban.com/subject/10733304/)★★★
 
 ### 性能实践
+- [高性能网站建设指南](https://book.douban.com/subject/3132277/)★
+- [高性能网站建设进阶指南](https://book.douban.com/subject/4719162/)★★
 - [Web性能实践日志](http://book.douban.com/subject/25891125/)★★★
 - [Web性能权威指南](http://book.douban.com/subject/25856314/)★★★
 
@@ -280,6 +298,7 @@ Frontend Knowledge Structure
 
 ## 前端工作面试
 - [前端工作面试问题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
+- [前端开发面试题（中文）](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions/Question)
 
 ## 内容贡献者
 除了感谢Jayli提供了知识结构图的原本来，还感谢以下的内容贡献者们，结果由`git-summary`生成于2014-01-03：
